@@ -4,7 +4,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
           <div className="container-fluid">
             <a className="navbar-brand" href="/">
             <img src="./apple-touch-icon.png" className="card-img-top" style={{width:'30px'}} />  
@@ -31,8 +31,33 @@ export default class Navbar extends Component {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/">
-                    Link
+                  <a className="nav-link" href="/sports">
+                    Sports
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/business">
+                    Business
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/entertainment">
+                    Entertainment
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/technology">
+                    Technology
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/health">
+                    Health
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/science">
+                    Science
                   </a>
                 </li>
               </ul>
